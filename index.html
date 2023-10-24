@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSKAN-My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Poppins:ital@0;1&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+<style>
+    @media screen and (max-width:1295px){
+        body{
+            min-width:fit-content;
+        }
+        #navbar{
+            justify-content:normal;
+            flex-direction: column;
+            max-width: 100%;
+            height: 110px;
+
+        }
+        #navbar ul li{
+            margin:-10px 45px;
+        }
+        #first-section{
+            flex-direction: column-reverse;
+            margin: 60px 60px;
+        }
+        #first-section div{
+            width: 42;
+        }
+        .picture img{
+            width:64%;
+            margin:14% 4%;
+
+        }
+        .detail{
+            width:100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .picture{
+            width: 720px !important;
+            display: flex;
+            justify-content: center;
+        }
+        .picture img{
+            width: 45vw;
+            margin-bottom: 73px;
+        }
+        /*third-section*/
+        #third-section{
+            max-width:85vw;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            height: 62vh;
+        }
+         #third-section .box{
+            flex-direction: column;
+            width: 50vw;
+        }
+        .vertical{
+            height: unset;
+            width: 2vw;
+            height: 1px;
+            margin: 33px;
+            display: flex;
+        }
+        .text{
+            left:30px;
+            top: -20px;
+            font-size: 1.6rem;
+        }
+        /*fourt section*/
+        .project{
+            width:35%;
+        }
+    } 
+</style>
+</head>
+<body>
+    <header>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="Untitled design.png" alt="my logo" height="80px"width="80px">
+        </div>
+        <div class="container-first"></div>
+        <ul>
+            <li class="info"><a href="#first-section">Home</a></li>
+            <li class="info"><a href="#second-section">About</a></li>
+            <li class="info"><a href="#third-section">Skills</a></li>
+            <li class="info"><a href="#fourth-section">Projects</a></li>
+            <li class="info"><a href="#fifth-section">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="first-section">
+        <div class="detail">
+        <h1>Hello!</h1>
+            <h2>I'm </h2>
+            <h2>Muskan Kumari</h2>
+            <p>and I'm a passionate Web Developer</p>
+
+        </div>
+        <div class="picture">
+            <img src="PngItem_41675.png" alt="web developer">
+        </div>
+    </section>
+    <hr>
+    <section id="second-section">
+        <h1>About Me</h1>
+        <div class="container-second">
+        <div class="my-pic">
+            <img src="WhatsApp Image 2023-10-19 at 2.41.10 PM.jpeg" alt="my pic" height="300px"
+            width="300px">
+            </div>
+            <div class="my-text">
+          <p>Hello! My name is Muskan Kumari .I'm pursuing btech in cse branch from Mahatma Gandhi Central University. A lot of time i find myself captivated by the continuously evolving world of technology . My journey in this field started back in 2022 when i decided to study and explore this field. I also have some interest in designing and i'm trying to explore  areas like-Graphic designing,Frontend Developer,Logo designing etc and deep dive into it.Apart from that I'm also a bibilophile.
+            i look forward to contributing my passion and skills to the exciting opportunities that lie ahead in the world of technology.
+          </p>
+            </div>
+            </div>
+            </section>
+    <hr>
+    <section id="third-section">
+        <h1>Skills</h1>
+        <div class="box">
+        <div class="vertical">
+            <div class="text">HTML5</div></div>
+        <div class="vertical">
+            <div class="text">CSS3</div>
+        </div>
+        <div class="vertical"><div class="text">Java-Script</div></div>
+        <div class="vertical"><div class="text">C-programming</div></div>
+        </div>
+
+    </section>
+    <hr>
+    <section id="fourth-section">
+        <h1>Projects</h1> 
+        <div class="project">
+            <div class="icon">
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="inside">
+                <h2>My Portfolio</h2>
+                <p>This is My portfolio website created by using HTML&CSS</p>
+            </div>
+        </div>
+        <div class="project">
+            <div class="icon">
+                <i class="fa-solid fa-temperature-high"></i>
+            </div>
+            <div class="inside">
+                <h2>Temperature Converter</h2>
+                <p>A simple temperature converter created by using HTML,CSS,JAVASCRIPT</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="fifth-section">
+        <h1>Contact Me</h1> 
+        <div class="name">
+            <div><i class="fa-solid fa-envelope"></i>  bs0003109@gmail.com</div>
+            <div><i class="fa-brands fa-instagram"></i>  muskankumari82672</div>
+            <div><i class="fa-brands fa-linkedin"></i>  muskankumari-264ab625b</div>
+            <div><i class="fa-brands fa-github"></i></div>
+        </div>           
+        <div class="contact-box">
+            <form action="">
+            <input type="text"name="name" id="name"placeholder="enter your name">
+            <input type="email"name="email" id="email"placeholder="enter your email">
+            <textarea name="message" id="message"placeholder="enter your message" column="50" row="30"></textarea>
+            <input type="submit"name="send" id="send"value="send">
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <div class="last-section">
+            &copy;copyright by Muskan kumari, created with ♥
+       </div>
+    </footer>
+</body>
+</html>
